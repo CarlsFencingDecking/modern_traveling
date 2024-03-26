@@ -1,0 +1,117 @@
+
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form {
+    width: 100%;
+    margin: 0 10% 0 10%;
+    border: 1px solid #009dd2;
+    box-shadow: 10px 10px 8px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 8px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 8px -12px rgba(0,0,0,0.75);
+}
+#header {
+    background-color: #009dd2;
+    
+}
+
+#airplane {
+    width: 200px;;
+}
+
+
+#header-title {
+    text-align: center;
+    font-size: 1.3em;
+    font-style: italic;
+    text-decoration: underline;
+    padding: 1%;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #004ad2c7
+}
+
+#fill-out {
+    margin: 3%;
+}
+.personal-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #004ad2c7;
+    text-transform: uppercase;
+    border-bottom: 3px solid #004ad2c7;
+}
+
+.form-details-div{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 1% 0 0 0;
+}
+
+.personal-details{
+    width: 300px;
+    font-weight: 400;
+}
+
+.personal-details-input {
+    height: 30px;
+    width: 400px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.important {
+    color: rgb(250, 15, 15);
+    font-size: 1.1em;
+    font-weight: 300;
+    
+}
+.fill-out-personal {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: left;
+    align-items: center;
+    margin: 20px;
+    padding: 5px;
+    border-bottom: 1px dashed rgb(145, 145, 145);
+}
+
+
+#consistent-details {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.trip-details-div {
+    text-align: center;
+    margin: 10px;
+}
+.consistent-details {
+    font-size: .75em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.consistent-details-input {
+    text-align: center;
+    height: 40px;
+
+}
+
+#dates {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}

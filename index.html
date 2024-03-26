@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Details</title>
+
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+    
+
+
+    <main id="main">
+       <form id="form" method="POST">
+            <div id="header">
+                <div>
+                    <img id="airplane" src="media/airplane.jpg">
+                </div>
+            </div>
+
+            <div id="header-title-div">
+
+                <div id="header-title">
+                    <h3>Tell Us What Your Interests Are!</h3>
+                </div>
+
+            </div>
+
+
+            <div id="fill-out">
+
+                <div id="personal">
+                    <div class="personal-title">
+                        <h4>Personal Information</h4>
+                    </div>
+
+                    <div class="form-details-div" id="personal-details">
+
+                        <div class="fill-out-personal" id="first">
+                            <div class="personal-details">First Name<b class="important">*</b></div>
+                            <input class="personal-details-input" type="text" placeholder="FIRST NAME">
+                        </div>
+
+                        <div class="fill-out-personal" id="first">
+                            <div class="personal-details">Last Name<b class="important">*</b></div>
+                            <input class="personal-details-input" type="text" placeholder="LAST NAME">
+                        </div>
+
+
+                        <div class="fill-out-personal" id="first">
+                            <div class="personal-details">Email<b class="important">*</b></div>
+                            <input class="personal-details-input" type="text" placeholder="EMAIL">
+                        </div>
+
+                        <div class="fill-out-personal" id="first">
+                            <div class="personal-details">Phone Number<b class="important">*</b></div>
+                            <input class="personal-details-input" type="text" placeholder="PHONE NUMBER">
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div id="personal">
+                    <div class="personal-title">
+                        <h4>Trip Details</h4>
+                    </div>
+
+                    <div class="form-details-div" id="trip-details">
+
+                       <div id="consistent-details">
+
+                            <div id="dates">
+
+                                <div class="trip-details-div" id="date-leave-div">
+                                    <div class="consistent-details" id="date-leave-span">Leave By:</div>
+                                    <input class="consistent-details-input" id="date-leave" type="date">
+                                </div>
+    
+                                <div class="trip-details-div" id="date-return">
+                                    <div class="consistent-details" id="date-return-span">Return By:</div>
+                                    <input class="consistent-details-input" id="date-return" type="date">
+                                </div>
+
+                            </div>
+
+                            
+
+                            <div class="trip-details-div" id="trip-idea-div">
+                                <div class="consistent-details" id="trip-idea-span">How Firm Is Your Idea For The Trip?</div>
+
+                                <select class="consistent-details-input" id="trip-idea">
+                                    <option selected>--Select Idea Of Trip--</option>
+                                    <option class="trip-idea">I HAVE A PRETTY GOOD IDEA</option>
+                                    <option class="trip-idea">I AM HUNG UP ON A FEW DETAILS</option>
+                                    <option class="trip-idea">I HAVE NO IDEA</option>
+                                </select>
+
+                            </div>
+
+                       </div>
+
+
+
+                       <div id="dynamic-details-div">
+
+                       </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            
+       </form>
+    </main>
+</body>
+</html>
